@@ -17,7 +17,7 @@
 	"require-dev": {},
     "autoload": {
         "psr-4": {
-            "Jorry\\Test\\": "src"
+            "Jorry\\Helper\\": "src"
         },
 		"files": [
             "src/common.php"
