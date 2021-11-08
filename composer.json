@@ -8,10 +8,19 @@
             "email": "980522557@qq.com"
         }
     ],
-    "require": {},
+    "require": {
+		"php": ">=7.0.0",
+        "symfony/console": "^5.0.0",
+        "symfony/process": "^5.0.0",
+        "symfony/filesystem": "^5.0.0"
+    },
+	"require-dev": {},
     "autoload": {
         "psr-4": {
             "Jorry\\Test\\": "src"
-        }
+        },
+		"files": [
+            "src/common.php"
+        ]
     }
 }
