@@ -1,0 +1,17 @@
+{
+    "name": "jorry2008\/test",
+    "description": "abc description",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "xiayouqiao",
+            "email": "980522557@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Jorry\\Test\\": "src"
+        }
+    }
+}
